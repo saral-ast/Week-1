@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Webpage</title>
+    <style>
+        header{
+            background-color: rgb(94, 98, 100);
+            text-align: center;
+            padding: 10px;
+            color: white;
+        }
+        nav{
+            background-color: rgb(124, 124, 124);
+            text-align: center;
+            padding: 10px;
+        }
+        nav a{
+            text-decoration: none;
+            padding: 10px;
+            color:  white;
+        }
+        article{
+            padding: 10px;
+        }
+        footer{
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h2>Sample Webpage for Exercise</h2><br>
-        <p>Do all the things are provided in the Exercise</p>
     </header>
     <nav>
         <a href="#home">Home</a>
@@ -17,12 +44,20 @@
         <a href="#service">Service</a>
     </nav>
     <article>
+        <h3>Header of an Article</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestias nam, mollitia sint rem sunt consectetur ex cumque saepe facere ducimus dolorem distinctio ratione tempora quo ipsa delectus quasi suscipit!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quae voluptate accusamus earum quia doloribus dolorem? Nobis odio, vero aliquam autem natus deleniti blanditiis sapiente quis optio iste consequatur quaerat!</p>
-    </article>
-    <footer style="background-color: lightblue;">
-        <p>&copy; 2020 Sample Webpage</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad molestias nam, mollitia sint rem sunt consectetur ex cumque saepe facere ducimus dolorem distinctio ratione tempora quo ipsa delectus quasi suscipit!</p>
 
+       
+    </article>
+    <footer style="background-color: lightblue; ">
+        <p>&copy; 2025 Sample Webpage</p>
+        <address>
+            <p>Address: 1234 Sample Street, Sample City, Sample Country</p>
+            <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+            <p>Phone <a href="tel:+91 7855656">+91 7855656</a></p>
+        </address>
     </footer>
 </body>
 </html>
