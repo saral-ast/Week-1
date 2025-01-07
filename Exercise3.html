@@ -11,7 +11,7 @@
         </header>
         <div>
             <p>Multiple and wrutten text Quiz</p>
-            <form action="">
+            <form action="/Practice.html" method="post" target="_blank" novalidate> 
                 <ol start="1">
                    <li> <label for="question1" >What is the capital of India?</label></li>
                             <ol type="A">
@@ -28,6 +28,16 @@
                             <li><input type="checkbox" name="question2" value="Chicago">Chicago<br></li>
                         </ol>
                     <br>
+                    <li>
+                        <label for="cars">Choose a car:</label>
+                            <select id="cars" name="cars">
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="fiat">Fiat</option>
+                            <option value="audi">Audi</option>
+                            </select>
+                    </li><br>
+
                    <li> <label for="question3">What is the capital of UK?</label><br></li>
                         <ol type="A">
                             <li><input type="checkbox" name="question3" value="London">London<br></li>
@@ -45,13 +55,18 @@
                             <li><input type="radio" name="question4" value="Mumbai">Mumbai<br></li>
                          </ol><br>
                     <li> <label for="question5">What is the capital of UK?</label><br>
-                        <input type="text" name="question5" id="question6" required placeholder="Answer">
+                        <textarea name="question5" id="question5" placeholder="Answer"></textarea>
+                    </li><br>
+
+                    <li><label for="question6">Enter The Date of Discovery of America</label><br>   
+                        <input type="date" name="question6" id="question6" required placeholder="Answer" autocomplete="off">
                     </li><br>
                         
                     <!-- <p>              </p> -->
                     <li><label for="question6">What is the Capital of Japan</label><br>
-                        <input type="text" name="question6" id="question6" required placeholder="Answer">
-                    </li>
+                        <input type="text" name="question6" id="question6" required placeholder="Answer" autocomplete="off">
+                    </li><br>
+                    <input type="Submit" value="Submit" name="submit">
                 </ol>
                
                 
